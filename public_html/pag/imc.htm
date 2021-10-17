@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Indice de Massa Corporal - Espa&ccedil;o F&iacute;sico - Qualidade de Vida e Sa&uacute;de!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../css/estilo.css" type="text/css">
+
+
+<script LANGUAGE="JavaScript">
+
+
+
+
+function avaliaResposta (x,y)
+{
+   
+   resposta=eval(x)/(eval(y)*eval(y));
+
+	if(resposta<18.5)
+		document.imc.parecer.value="ABAIXO DO PESO";
+	else
+	if(resposta<=24.9)
+		document.imc.parecer.value="FAIXA DE PESO IDEAL";
+	if(resposta>=24.9)
+		if (resposta >= 40.0)
+			document.imc.parecer.value="OBESIDADE";
+		else
+			document.imc.parecer.value="ACIMA DO PESO";
+	return resposta;
+}
+
+
+function checaDados(x,y)
+{
+
+  resposta="";
+ if(isNaN(x) || isNaN(y) || y == "" || x=="")
+    alert("Valor inválido! Verifique os campos, e preencha corretamente!");
+  else
+  {
+	if(x > 200 || x <0 || y > 3 || y <0) 
+	alert("Valores fora do limite válido. Verifique os campos e preencha corretamente."); 
+	else 
+       document.imc.resposta.value=Math.round(avaliaResposta (x,y)*100)/100;
+       document.imc.resultado1.value=Math.round(eval(y)*eval(y)*20*100)/100;
+       document.imc.resultado2.value=Math.round(eval(y)*eval(y)*24*100)/100;
+
+  } 
+  return resposta;
+} 
+
+
+</script>
+
+
+</head>
+
+
+<body>
+
+
+<table width="770" height="860" border="1" cellpadding="0" cellspacing="0" bgcolor="white">
+<tr>
+	<td>
+		<table width="730" height="860" border="0" cellpadding="5" cellspacing="5" bgcolor="white">
+		<tr height="10%">	
+			<td >
+				<h3><i>Cálculo do Índice de Massa Corporal - IMC</i></h3>
+				<hr align="left" width="730" height="2" color="lightblue">
+   			</td>
+		</tr>
+ 
+
+		<tr height="30%">
+			<td valign="top">
+		
+    				<p>
+					Índice de Massa Corporal (IMC) é aceite como padrão de medida internacional para 
+					identificar, da melhor maneira possível, o grau de obesidade de uma pessoa.		<br><br>
+					A fórmula de cálculo do IMC é a seguinte: IMC = Peso (Kg)/altura (m)<sup>2</sup> 	<br><br>
+    			 
+                    				É através dos valores do peso e da altura, que se faz o cálculo do IMC. A fórmula 
+					procura relacionar a altura com o peso do corpo de um indivíduo. Assim, conforme o 
+					resultado do IMC, podemos classificar se um indivíduo está com o peso reduzido, peso 
+					adequado, excesso de peso ou obesidade. 					<br><br>
+
+                  				Para calcular o Índice de Massa Corporal deve proceder da seguinte maneira:	<br><br><br><br>
+                  
+					Digite o peso, por exemplo : 50.5 kg - "cinquenta" ponto "cinco"<br><br>					
+
+					Digite a altura, por exemplo: 1.60 m  - "um" ponto "sessenta" <br><br>
+
+					
+			
+				</p> 
+    			</td>
+ 		</tr>
+		
+
+		<tr height="20%">
+
+			<td valign="top" align="center">	
+				<form name="imc">
+				
+					<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse" bordercolor="#111111" width="60%" align="center" valign="top" height="30%">
+					<tr id="header" height="10%">
+						<td " bgcolor=#6C8FB5 height="5" align="center" colspan="3">
+							<p class="p_imc"> Calcule seu IMC </p>
+						</td>
+					</tr>
+
+					<tr  id="objetos" height="90%">
+						<td width="40%" align="center" valign="middle" height="140">
+						
+							<p >
+								Peso  :  <input type="text" size=5 name="peso"> kg	<br><br>
+								Altura: <input type="text" size=5 name="altura" > m	<br><br>
+							</p>
+						</td>
+
+
+						<td width="10%"  align="left" valign="middle" >
+							<input  type="button" name="calcular" value="Calcular" onclick="checaDados(document.imc.peso.value,document.imc.altura.value)">
+							<br>
+							<input  type="reset" name="limpar" value=" Limpar " >
+
+						</td>
+
+						
+						<td  width="50%" align="center" valign="middle">
+							<p class="p_imc1">
+
+								Seu IMC é: 				<br><br>
+								<input name="resposta" size="5"> %		<br><br>
+								Peso ideal de:  				<br><br>
+								<input  name="resultado1" size="5">	a 
+								<input  name="resultado2" size="5">	kg	<br><br>
+								
+							</p>
+						</td>
+					</tr>
+
+					<tr id="resultado" height="10%" >
+						<td align="left" colspan="3" valign="top">
+							<p>
+								Avaliação: <input name="parecer" size="50">
+							</p>
+						</td>
+					</tr>
+				</table> 
+
+				</form>
+
+			</td>
+		</tr>
+
+		<tr height="40%">
+			<td align="top">
+
+				<p>
+						<b>Avaliação do Resultado </b><br><br>
+
+						a) Se o resultado estiver <b>ABAIXO DO PESO</b>, é necessário desenvolver um trabalho para aumentar o peso e evitar a 
+						desnutrição, doença responsável por altas taxas de mortalidade. Procure um nutricionista. 			<br><br>
+
+
+						b) Se o resultado estiver dentro dos valores de <b>PESO IDEAL</b>, parabéns, mas não se esqueça que uma alimentação 
+						adequada e exercícios físicos fazem bem para manter a saúde e auxiliam a manutenção do peso ideal. 		<br><br>
+
+						c) Se o resultado estiver dentro dos valores <b>ACIMA DO PESO</b>, preocupe-se, pois encontra-se dentro de um grupo 
+						com maior probabilidade de doenças como diabetes, hipertensão entre outras. Procure um nutricionista para 
+						ajudar a reduzir o peso.										<br><br>
+
+						d) Se o resultado estiver dentro dos valores de <b><font color="red">OBESIDADE</font></b> , PERIGO, pois o risco de problemas de saúde é bastante
+						 grande e a probabilidade de complicações metabólicas é séria. Procure um nutricionista.			<br><br>
+
+
+				</p>
+			</td>
+		</tr>
+
+
+	</td>
+</tr>
+</table>
+
+
+
+
+</body>
+</html>
