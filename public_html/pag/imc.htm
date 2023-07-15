@@ -35,11 +35,11 @@ function checaDados(x,y)
 
   resposta="";
  if(isNaN(x) || isNaN(y) || y == "" || x=="")
-    alert("Valor inv·lido! Verifique os campos, e preencha corretamente!");
+    alert("Valor inv√°lido! Verifique os campos, e preencha corretamente!");
   else
   {
 	if(x > 200 || x <0 || y > 3 || y <0) 
-	alert("Valores fora do limite v·lido. Verifique os campos e preencha corretamente."); 
+	alert("Valores fora do limite v√°lido. Verifique os campos e preencha corretamente."); 
 	else 
        document.imc.resposta.value=Math.round(avaliaResposta (x,y)*100)/100;
        document.imc.resultado1.value=Math.round(eval(y)*eval(y)*20*100)/100;
@@ -65,7 +65,7 @@ function checaDados(x,y)
 		<table width="730" height="860" border="0" cellpadding="5" cellspacing="5" bgcolor="white">
 		<tr height="10%">	
 			<td >
-				<h3><i>C·lculo do Õndice de Massa Corporal - IMC</i></h3>
+				<h3><i>C√°lculo do √çndice de Massa Corporal - IMC</i></h3>
 				<hr align="left" width="730" height="2" color="lightblue">
    			</td>
 		</tr>
@@ -75,16 +75,16 @@ function checaDados(x,y)
 			<td valign="top">
 		
     				<p>
-					Õndice de Massa Corporal (IMC) È aceite como padr„o de medida internacional para 
-					identificar, da melhor maneira possÌvel, o grau de obesidade de uma pessoa.		<br><br>
-					A fÛrmula de c·lculo do IMC È a seguinte: IMC = Peso (Kg)/altura (m)<sup>2</sup> 	<br><br>
+					√çndice de Massa Corporal (IMC) √© aceite como padr√£o de medida internacional para 
+					identificar, da melhor maneira poss√≠vel, o grau de obesidade de uma pessoa.		<br><br>
+					A f√≥rmula de c√°lculo do IMC √© a seguinte: IMC = Peso (Kg)/altura (m)<sup>2</sup> 	<br><br>
     			 
-                    				… atravÈs dos valores do peso e da altura, que se faz o c·lculo do IMC. A fÛrmula 
-					procura relacionar a altura com o peso do corpo de um indivÌduo. Assim, conforme o 
-					resultado do IMC, podemos classificar se um indivÌduo est· com o peso reduzido, peso 
+                    				√â atrav√©s dos valores do peso e da altura que se faz o c√°lculo do IMC. A f√≥rmula 
+					procura relacionar a altura com o peso do corpo de um indiv√≠duo. Assim, conforme o 
+					resultado do IMC, podemos classificar se um indiv√≠duo est√° com o peso reduzido, peso 
 					adequado, excesso de peso ou obesidade. 					<br><br>
 
-                  				Para calcular o Õndice de Massa Corporal deve proceder da seguinte maneira:	<br><br><br><br>
+                  				Para calcular o √çndice de Massa Corporal deve proceder da seguinte maneira:	<br><br><br><br>
                   
 					Digite o peso, por exemplo : 50.5 kg - "cinquenta" ponto "cinco"<br><br>					
 
@@ -130,7 +130,7 @@ function checaDados(x,y)
 						<td  width="50%" align="center" valign="middle">
 							<p class="p_imc1">
 
-								Seu IMC È: 				<br><br>
+								Seu IMC √©: 				<br><br>
 								<input name="resposta" size="5"> %		<br><br>
 								Peso ideal de:  				<br><br>
 								<input  name="resultado1" size="5">	a 
@@ -143,7 +143,7 @@ function checaDados(x,y)
 					<tr id="resultado" height="10%" >
 						<td align="left" colspan="3" valign="top">
 							<p>
-								AvaliaÁ„o: <input name="parecer" size="50">
+								Avalia√ß√£o: <input name="parecer" size="50">
 							</p>
 						</td>
 					</tr>
@@ -158,21 +158,21 @@ function checaDados(x,y)
 			<td align="top">
 
 				<p>
-						<b>AvaliaÁ„o do Resultado </b><br><br>
+						<b>Avalia√ß√£o do Resultado </b><br><br>
 
-						a) Se o resultado estiver <b>ABAIXO DO PESO</b>, È necess·rio desenvolver um trabalho para aumentar o peso e evitar a 
-						desnutriÁ„o, doenÁa respons·vel por altas taxas de mortalidade. Procure um nutricionista. 			<br><br>
+						a) Se o resultado estiver <b>ABAIXO DO PESO</b>, √© necess√°rio desenvolver um trabalho para aumentar o peso e evitar a 
+						desnutri√ß√£o, doen√ßa respons√°vel por altas taxas de mortalidade. Procure um nutricionista. 			<br><br>
 
 
-						b) Se o resultado estiver dentro dos valores de <b>PESO IDEAL</b>, parabÈns, mas n„o se esqueÁa que uma alimentaÁ„o 
-						adequada e exercÌcios fÌsicos fazem bem para manter a sa˙de e auxiliam a manutenÁ„o do peso ideal. 		<br><br>
+						b) Se o resultado estiver dentro dos valores de <b>PESO IDEAL</b>, parab√©ns, mas n√£o se esque√ßa que uma alimenta√ß√£o 
+						adequada e exerc√≠cios f√≠sicos fazem bem para manter a sa√∫de e auxiliam a manuten√ß√£o do peso ideal. 		<br><br>
 
 						c) Se o resultado estiver dentro dos valores <b>ACIMA DO PESO</b>, preocupe-se, pois encontra-se dentro de um grupo 
-						com maior probabilidade de doenÁas como diabetes, hipertens„o entre outras. Procure um nutricionista para 
+						com maior probabilidade de doen√ßas como diabetes, hipertensso entre outras. Procure um nutricionista para 
 						ajudar a reduzir o peso.										<br><br>
 
-						d) Se o resultado estiver dentro dos valores de <b><font color="red">OBESIDADE</font></b> , PERIGO, pois o risco de problemas de sa˙de È bastante
-						 grande e a probabilidade de complicaÁıes metabÛlicas È sÈria. Procure um nutricionista.			<br><br>
+						d) Se o resultado estiver dentro dos valores de <b><font color="red">OBESIDADE</font></b> , PERIGO, pois o risco de problemas de saÔøΩde ÔøΩ bastante
+						 grande e a probabilidade de complica√ß√µes metab√≥licas √© s√©ria. Procure um nutricionista.			<br><br>
 
 
 				</p>
