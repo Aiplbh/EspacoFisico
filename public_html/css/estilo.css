@@ -93,12 +93,12 @@ A:link, A:visited, A:active	{ text-decoration: none; color: #050096 }
 
 A:hover			{ text-decoration: underline; color: #050096}
 
-H1	{ font-style: normal; color: #050096; font-size: 20px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H2	{ font-style: normal; color: #050096; font-size: 18px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H3	{ font-style: normal; color: #607F9B; font-size: 16px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H4	{ font-style: normal; color: #050096; font-size: 14px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H5	{ font-style: normal; color: #050096; font-size: 12px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H6	{ font-style: normal; color: #666666; font-size: 11px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
+H1	{ font-style: normal; color: #050096; font-size: 20px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H2	{ font-style: normal; color: #050096; font-size: 18px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H3	{ font-style: normal; color: #607F9B; font-size: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H4	{ font-style: normal; color: #050096; font-size: 14px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H5	{ font-style: normal; color: #050096; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H6	{ font-style: normal; color: #666666; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif }
 
 P      	
 { 
