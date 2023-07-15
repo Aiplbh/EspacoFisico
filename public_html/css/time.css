@@ -1,9 +1,11 @@
-<!--   BANCO DE IDEIAS
+/*BANCO DE IDEIAS*/
 
 
-.link_normal {color=#0033cc; text-decoration: none}
+.link_normal {color:#0033cc; text-decoration: none}
 
+/*
 CORES DOS TITULOS:
+
 
 #0033CC	AZUL VIVO
 #00C3BE	AZUL+VERDE LIGHT
@@ -12,11 +14,9 @@ CORES DOS TITULOS:
 #009999 AZUL+VERDE DOUBLE ESCURO --> FICOU LEGAL
 #607F9B AZUL CLICK21 BGCOLOR
 #D4E3F1 AZUL CLARO - SITE CLICK21 - BEMLEVE
+*/
 
-
--->
-
-<!-- PERSONALIZADO -->
+/*PERSONALIZADO */
 
 
 
@@ -25,23 +25,23 @@ A.tipo2:link, A.tipo2:visited, A.tipo2:active { text-decoration: none; color: #8
 A.tipo3:link, A.tipo3:visited, A.tipo3:active { text-decoration: none; color: #808080 }
 
 .subtitulos 	{font-style: normal; color: #050096; font-size: 12px; 
-		 font-family: "Verdana, Arial, Helvetica, sans-serif";
+		 font-family: Verdana, Arial, Helvetica, sans-serif;
 		 font-weight: bolder}
 
 .p1     		{ font-style: normal; color: #000000;
-               	 font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+               	 font-family: Verdana, Arial, Helvetica, sans-serif ; 
                 	font-size: 11px; text-align: justify; margin-top: 6px; margin-bottom: 12px}
 
 .p2     	{font-style: normal; color: #d7d7d7;
-         	 font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+         	 font-family: Verdana, Arial, Helvetica, sans-serif ; 
         	 font-size: 9px; text-align: center }
 
 
 .p3     	{font-style: normal; color: #808080;
-         	 font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+         	 font-family: Verdana, Arial, Helvetica, sans-serif ; 
         	 font-size: 9px; text-align: center }
 
-<!-- PREFERENCIAS -->
+/*PREFERENCIAS*/
 
 
 
@@ -51,30 +51,30 @@ A:link, A:visited, A:active	{ text-decoration: none; color: #050096 }
 
 A:hover			{ text-decoration: underline; color: #ff9900}
 
-H1	{ font-style: normal; color: #050096; font-size: 20px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H2	{ font-style: normal; color: #000000; font-size: 16px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H3	{ font-style: normal; color: #ff9900; font-size: 17px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H4	{ font-style: normal; color: #050096; font-size: 14px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H5	{ font-style: normal; color: #050096; font-size: 12px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
-H6	{ font-style: normal; color: #666666; font-size: 11px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
+H1	{ font-style: normal; color: #050096; font-size: 20px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H2	{ font-style: normal; color: #000000; font-size: 16px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H3	{ font-style: normal; color: #ff9900; font-size: 17px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H4	{ font-style: normal; color: #050096; font-size: 14px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H5	{ font-style: normal; color: #050096; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif }
+H6	{ font-style: normal; color: #666666; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif }
 
 P      	{ font-style: normal; color: #ff9900;
-                font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+                font-family: Verdana, Arial, Helvetica, sans-serif ; 
                 font-size: 14px; text-align: justify; margin-top: 6px; margin-bottom: 12px}
 
 P.tipo2      	{ font-style: normal; color: #ff9900;
-                font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+                font-family: Verdana, Arial, Helvetica, sans-serif ; 
                 font-size: 10px; text-align: center; margin-top: 6px; margin-bottom: 12px}
 
 P.tipo3      	{ font-style: bold; color: #ff9900;
-                font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+                font-family: Verdana, Arial, Helvetica, sans-serif ; 
                 font-size: 18px; text-align: center; margin-top: 6px; margin-bottom: 12px}
 
 P.tipo4      	{ font-style: normal; color: #ff9900;
-                font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+                font-family: Verdana, Arial, Helvetica, sans-serif ; 
                 font-size: 10px; text-align: justify; margin-top: 6px; margin-bottom: 12px}
 
 
-<!--TD	{border: none} -->
+/*TD	{border: none}*/
 
 
